@@ -1,0 +1,154 @@
+lass="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=""IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Meseret Andarge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">Meseret Andarge</a>
+            <nav class="navbar">
+                <ul class="nav-list" id="navList">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div c
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">[Your Name]</span></h1>
+                    <p class="tagline">[Your Title/Field, e.g., Software Engineer, Web Developer, Designer]</p>
+                    <p class="description">
+                        Welcome to my portfolio! I'm a passionate and driven [Your Field] student at the University of Gondar,
+                        dedicated to creating innovative and impactful solutions.
+                    </p>
+                    <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Your Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a final-year [Your Major] student at the University of Gondar, with a strong foundation in [mention key skills, e.g., web development, data analysis, software engineering].
+                            My academic journey has equipped me with [mention specific knowledge, e.g., problem-solving skills, algorithmic thinking, design principles].
+                        </p>
+                        <p>
+                            I'm passionate about [your passion, e.g., building user-friendly interfaces, optimizing database performance, developing scalable applications].
+                            I'm always eager to learn new technologies and contribute to challenging projects.
+                        </p>
+                        <p>
+                            In my free time, I enjoy [mention hobbies, e.g., exploring new coding challenges, reading tech blogs, hiking].
+                            I'm currently looking for [internship/junior positions] where I can apply my skills and grow as a professional.
+                        </p>
+                    </div>
+                    <div class="skills-grid">
+                        <h3>My Skills</h3>
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">[Another Skill]</div>
+                        <div class="skill-item">[Another Skill]</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of your project. Highlight the technologies used and your role.</p>
+                        <a href="[Link to Live Demo or GitHub Repo]" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/project2.jpg" alt="Project 2">
+                        <h3>Project Title 2</h3>
+                        <p>Another exciting project. Explain what it does and why it's important.</p>
+                        <a href="[Link to Live Demo or GitHub Repo]" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/project3.jpg" alt="Project 3">
+                        <h3>Project Title 3</h3>
+                        <p>Your third project description. Focus on the impact or unique features.</p>
+                        <a href="[Link to Live Demo or GitHub Repo]" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p class="contact-intro">I'd love to connect and discuss potential opportunities or collaborations. Feel free to reach out!</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                    <p><i class="fas fa-phone"></i> Phone: [Your Phone Number (Optional)]</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Location: Gondar, Amhara, Ethiopia</p>
+                </div>
+                <div class="social-links">
+                    <a href="[Your LinkedIn Profile URL]" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="[Your GitHub Profile URL]" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="[Your Twitter/X Profile URL (Optional)]" target="_blank" aria-label="Twitter/X"><i class="fab fa-twitter"></i></a>
+                    </div>
+                <form action="[YOUR_FORM_SUBMISSION_ENDPOINT]" method="POST" class="contact-form">
+                    <h3>Send me a message</h3>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                    <p class="form-note">
+                        Note: For a fully functional contact form, you'll need a backend service (e.g., Formspree.io, Netlify Forms, or your own server-side script) to handle submissions.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>Built with ❤️ and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
